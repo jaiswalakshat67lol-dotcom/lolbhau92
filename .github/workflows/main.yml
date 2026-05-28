@@ -1,0 +1,8 @@
+name: My Lab Test
+on: [push]
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "The DevOps CI-CD robot is running perfectly!"
+
